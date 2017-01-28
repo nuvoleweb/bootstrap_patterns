@@ -1,0 +1,16 @@
+{
+  "name": "drupal/bootstrap_patterns",
+  "description": "UI Patterns example theme based on Bootstrap.",
+  "version": "1.0.0-dev",
+  "type": "drupal-theme",
+  "keywords": ["drupal", "bootstrap", "ui_patterns"],
+  "homepage": "https://www.drupal.org/project/ui_patterns",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Nuvole Web",
+      "email": "info@nuvole.org",
+      "homepage": "http://nuvole.org"
+    }
+  ]
+}

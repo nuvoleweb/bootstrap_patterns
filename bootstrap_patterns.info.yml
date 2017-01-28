@@ -1,0 +1,9 @@
+name: UI Patterns example theme
+type: theme
+base theme: bootstrap
+description: UI Patterns example theme based on Bootstrap. It needs the <a href="https://www.drupal.org/project/ui_patterns" target="_blank">Ui Pattern module</a> to function correctly.
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - bootstrap_patterns/patterns-overview
