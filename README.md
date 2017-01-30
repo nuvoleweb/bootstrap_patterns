@@ -5,15 +5,15 @@
  
 ## Installation
 
-1. Download the [Bootstrap theme](https://www.drupal.org/project/bootstrap).
-2. Download and enable the [UI Patterns](https://www.drupal.org/project/ui_patterns) module.
-3. Enable the Bootstrap Patterns theme.
-4. Visit the Patterns Overview page at `/patterns`.
-
-With drush
+- Download and enable the [UI Patterns](https://www.drupal.org/project/ui_patterns) module and the
+[Bootstrap theme](https://www.drupal.org/project/bootstrap). For example, with [Drush](http://www.drush.org):
 
 ```bash
 $ drush dl ui_patterns
 $ drush dl bootstrap
 $ drush en ui_patterns
 ```
+
+- Enable the Bootstrap Patterns theme.
+- Clear the cache
+- Visit the Patterns Overview page at `/patterns`
