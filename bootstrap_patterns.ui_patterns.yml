@@ -76,7 +76,7 @@ card:
           image:
             theme: image
             uri: http://lorempixel.com/400/200/nature/2
-          caption: &copy; 2017 John Smith photography
+          caption: '&copy; 2017 John Smith photography'
 
     title:
       type: text
@@ -104,5 +104,5 @@ image:
       type: text
       label: Caption
       description: The image caption.
-      preview: &copy; 2017 John Smith photography
+      preview: '&copy; 2017 John Smith photography'
 
