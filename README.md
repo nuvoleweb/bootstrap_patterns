@@ -11,7 +11,7 @@
 ```bash
 $ drush dl ui_patterns
 $ drush dl bootstrap
-$ drush en ui_patterns
+$ drush en ui_patterns_library
 ```
 
 - Enable the Bootstrap Patterns theme.
