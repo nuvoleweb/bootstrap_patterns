@@ -6,11 +6,37 @@
   "keywords": ["drupal", "bootstrap", "ui_patterns"],
   "homepage": "https://www.drupal.org/project/ui_patterns",
   "license": "GPL-2.0+",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Nuvole Web",
       "email": "info@nuvole.org",
       "homepage": "http://nuvole.org"
     }
-  ]
+  ],
+  "require": {
+    "drupal/ui_patterns": "1.x-dev"
+  },
+  "require-dev": {
+    "nuvoleweb/drupal-component-scaffold": "*",
+    "drupal/console": "~1",
+    "drush/drush": "*",
+    "drupal/core": "~8",
+    "drupal/bootstrap": "~3"
+  },
+  "conflict": {
+    "drupal/drupal": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "build/core": ["type:drupal-core"]
+    }
+  }
 }
