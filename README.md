@@ -20,6 +20,7 @@ After that proceed with the site installation and setup:
 $ cd build
 $ drush si standard -y --db-url=mysql://username:password@host/database
 $ drush en ui_patterns_library bootstrap_patterns -y
+$ drush then bootstrap_patterns -y
 $ drush config-set system.theme default bootstrap_patterns -y
 $ drush cr
 ```
